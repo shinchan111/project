@@ -1,55 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Travel Explorer - Discover Amazing Places</title>
+    <title>Travel Explorer | Discover Beautiful Destinations</title>
 
     <meta name="description"
-          content="Travel Explorer helps you discover beautiful destinations,
-          travel ideas and unforgettable places around the world.">
+        content="Travel Explorer helps you discover beautiful destinations,
+        exciting adventures and unforgettable travel experiences.">
 
     <meta name="keywords"
-          content="travel, tourism, destinations, vacation, travel guide">
+        content="travel, tourism, destinations, vacation, travel guide">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Travel Explorer</h1>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container nav-container">
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+            <div class="logo">
+                <span>✈</span> Travel Explorer
+            </div>
+
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>Explore the World</h2>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-small">EXPLORE • DISCOVER • EXPERIENCE</p>
+
+            <h1>Discover the World<br>One Journey at a Time</h1>
 
             <p>
-                Welcome to Travel Explorer! Discover beautiful destinations,
-                exciting adventures and memorable travel experiences.
+                Explore breathtaking destinations, experience new cultures
+                and create unforgettable memories.
             </p>
 
-            <h2>Popular Destinations</h2>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Welcome Section -->
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p>WELCOME TO TRAVEL EXPLORER</p>
+
+                <h2>Travel. Explore. Create Memories.</h2>
+
+                <span></span>
+            </div>
+
+            <div class="welcome">
+
+                <div class="welcome-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+                        alt="Beautiful mountain landscape">
+                </div>
+
+                <div class="welcome-text">
+
+                    <h2>Make Your Journey Special</h2>
+
+                    <p>
+                        Travelling allows us to discover new places, meet
+                        interesting people and experience different cultures.
+                    </p>
+
+                    <p>
+                        Travel Explorer provides information about beautiful
+                        destinations and exciting places around the world.
+                    </p>
+
+                    <a href="about.html" class="text-link">
+                        Learn More →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Destinations -->
+    <section class="section destinations" id="destinations">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p>POPULAR PLACES</p>
+
+                <h2>Explore Amazing Destinations</h2>
+
+                <span></span>
+            </div>
+
+
+            <div class="destination-grid">
+
+                <!-- Card 1 -->
+                <article class="destination-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80"
+                        alt="Eiffel Tower in Paris">
+
+                    <div class="card-content">
+
+                        <span>🇫🇷 France</span>
+
+                        <h3>Paris</h3>
+
+                        <p>
+                            Discover the Eiffel Tower, beautiful streets,
+                            museums and French culture.
+                        </p>
+
+                        <a href="about.html">Discover →</a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Card 2 -->
+                <article class="destination-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
+                        alt="Beautiful Bali temple and nature">
+
+                    <div class="card-content">
+
+                        <span>🇮🇩 Indonesia</span>
+
+                        <h3>Bali</h3>
+
+                        <p>
+                            Enjoy tropical beaches, temples, forests and
+                            peaceful natural landscapes.
+                        </p>
+
+                        <a href="about.html">Discover →</a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Card 3 -->
+                <article class="destination-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80"
+                        alt="Beautiful lake surrounded by mountains">
+
+                    <div class="card-content">
+
+                        <span>🇨🇭 Switzerland</span>
+
+                        <h3>Switzerland</h3>
+
+                        <p>
+                            Experience stunning mountains, lakes and
+                            breathtaking European scenery.
+                        </p>
+
+                        <a href="about.html">Discover →</a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Why Travel -->
+    <section class="why-section">
+
+        <div class="container">
+
+            <div class="section-heading light">
+
+                <p>WHY TRAVEL?</p>
+
+                <h2>Experience More Than Just Places</h2>
+
+                <span></span>
+
+            </div>
+
+
+            <div class="features">
+
+                <div class="feature">
+                    <div class="feature-icon">🌎</div>
+                    <h3>Explore</h3>
+                    <p>
+                        Discover beautiful destinations and hidden places.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">📸</div>
+                    <h3>Create Memories</h3>
+                    <p>
+                        Capture unforgettable moments during your journey.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🌏</div>
+                    <h3>Experience Culture</h3>
+                    <p>
+                        Learn about different cultures and traditions.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Call To Action -->
+    <section class="cta">
+
+        <div class="container">
+
+            <h2>Ready for Your Next Adventure?</h2>
 
             <p>
-                Explore beaches, mountains, historical places and beautiful
-                cities around the world.
+                Start planning your next unforgettable journey today.
             </p>
 
-            <a href="about.html">Learn More About Us</a>
-        </section>
-    </main>
+            <a href="contact.html" class="btn">Contact Us</a>
 
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Travel Explorer. All Rights Reserved.</p>
+
+        <div class="container footer-content">
+
+            <div>
+                <h3>✈ Travel Explorer</h3>
+
+                <p>
+                    Discover the world and create beautiful memories.
+                </p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+
+                <p>📧 travel@example.com</p>
+                <p>📞 +91 98765 43210</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>
+                © 2026 Travel Explorer. All Rights Reserved.
+            </p>
+        </div>
+
     </footer>
 
 </body>
