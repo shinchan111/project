@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://project-rosy-delta-79.vercel.app/sitemap.xml
