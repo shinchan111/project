@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
-    <!-- Basic SEO -->
     <meta charset="UTF-8">
 
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>
-        Travel Explorer | Best Travel Destinations & Guides
-    </title>
+    <title>Travel Explorer | Best Travel Destinations & Guides</title>
 
     <meta name="description"
-          content="Discover the world's best travel destinations, vacation ideas, travel guides and unforgettable adventures with Travel Explorer.">
+          content="Discover beautiful travel destinations, vacation ideas, travel guides and unforgettable experiences with Travel Explorer.">
 
     <meta name="keywords"
-          content="travel destinations, travel guide, vacation ideas, tourism, adventure travel, world travel">
+          content="travel destinations, travel guide, vacation ideas, world travel, Paris, Bali, Switzerland">
 
     <meta name="author"
           content="Travel Explorer">
@@ -25,88 +21,97 @@
     <meta name="robots"
           content="index, follow">
 
-    <meta name="theme-color"
-          content="#0f766e">
-
-
-    <!-- Canonical -->
     <link rel="canonical"
           href="https://project-rosy-delta-79.vercel.app/">
 
+    <link rel="icon"
+          href="favicon.svg"
+          type="image/svg+xml">
 
     <!-- Open Graph -->
+
+    <meta property="og:type"
+          content="website">
+
     <meta property="og:title"
           content="Travel Explorer | Best Travel Destinations">
 
     <meta property="og:description"
-          content="Explore beautiful destinations, travel guides and unforgettable adventures around the world.">
-
-    <meta property="og:type"
-          content="website">
+          content="Explore beautiful destinations, travel inspiration and unforgettable experiences around the world.">
 
     <meta property="og:url"
           content="https://project-rosy-delta-79.vercel.app/">
 
     <meta property="og:image"
-          content="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80">
-
-    <meta property="og:image:alt"
-          content="Beautiful mountain travel destination">
+          content="https://project-rosy-delta-79.vercel.app/images/hero.jpg">
 
     <meta property="og:site_name"
           content="Travel Explorer">
 
 
-    <!-- Twitter -->
+    <!-- X Card -->
+
     <meta name="twitter:card"
           content="summary_large_image">
 
     <meta name="twitter:title"
-          content="Travel Explorer | Best Travel Destinations">
+          content="Travel Explorer | Travel Destinations">
 
     <meta name="twitter:description"
-          content="Explore beautiful destinations and unforgettable travel experiences.">
+          content="Discover amazing destinations and travel inspiration around the world.">
 
     <meta name="twitter:image"
-          content="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80">
+          content="https://project-rosy-delta-79.vercel.app/images/hero.jpg">
 
 
-    <!-- Favicon -->
-    <link rel="icon"
-          href="favicon.svg"
-          type="image/svg+xml">
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+          rel="stylesheet">
 
 
-    <!-- CSS -->
-    <link rel="stylesheet"
-          href="style.css">
+    <!-- Structured Data -->
 
-
-    <!-- Website Schema -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebSite",
+        "@type": "TravelAgency",
         "name": "Travel Explorer",
         "url": "https://project-rosy-delta-79.vercel.app/",
-        "description": "Travel destination and travel guide website.",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Travel Explorer"
+        "logo": "https://project-rosy-delta-79.vercel.app/favicon.svg",
+        "description": "Travel Explorer provides travel inspiration, destination guides and vacation ideas.",
+        "telephone": "+91-98765-43210",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Travel Avenue, Andheri East",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "400069",
+            "addressCountry": "IN"
         }
     }
     </script>
+
+    <link rel="stylesheet"
+          href="style.css">
 
 </head>
 
 
 <body>
 
-<!-- ================= HEADER ================= -->
+<!-- ================= NAVIGATION ================= -->
 
 <header class="site-header">
 
-    <div class="container nav-wrapper">
+    <nav class="navbar container">
 
         <a href="index.html"
            class="logo"
@@ -121,8 +126,16 @@
         </a>
 
 
-        <nav class="main-nav"
-             aria-label="Primary navigation">
+        <button class="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+
+            ☰
+
+        </button>
+
+
+        <div class="nav-links">
 
             <a href="index.html"
                class="active">
@@ -141,46 +154,58 @@
                 Contact
             </a>
 
-        </nav>
+            <a href="destinations.html"
+               class="nav-button">
+                Explore Now
+            </a>
 
-    </div>
+        </div>
+
+    </nav>
 
 </header>
 
 
 <main>
 
+
 <!-- ================= HERO ================= -->
 
 <section class="hero">
 
+    <img src="images/hero.jpg"
+         alt="Beautiful mountain and lake travel destination"
+         class="hero-image">
+
     <div class="hero-overlay"></div>
 
-    <div class="container hero-content">
 
-        <span class="eyebrow">
-            EXPLORE • DISCOVER • EXPERIENCE
+    <div class="hero-content container">
+
+        <span class="eyebrow light">
+            DISCOVER • EXPLORE • EXPERIENCE
         </span>
 
         <h1>
-            Discover the World's
-            <strong>Best Destinations</strong>
+            Explore Beautiful Places Around the World
         </h1>
 
         <p>
-            Find beautiful places, exciting adventures and
-            unforgettable travel experiences around the world.
+            Discover inspiring destinations, unforgettable
+            experiences and helpful travel ideas designed to
+            make your next journey memorable.
         </p>
+
 
         <div class="hero-buttons">
 
             <a href="destinations.html"
-               class="btn btn-primary">
+               class="button button-primary">
                 Explore Destinations
             </a>
 
             <a href="about.html"
-               class="btn btn-outline">
+               class="button button-outline">
                 Learn More
             </a>
 
@@ -191,7 +216,7 @@
 </section>
 
 
-<!-- ================= INTRO ================= -->
+<!-- ================= INTRODUCTION ================= -->
 
 <section class="section">
 
@@ -200,86 +225,79 @@
         <div class="section-heading">
 
             <span class="eyebrow">
-                WELCOME TO TRAVEL EXPLORER
+                TRAVEL INSPIRATION
             </span>
 
             <h2>
-                Travel. Explore. Create Memories.
+                Find Your Next Adventure
             </h2>
 
             <p>
-                Your simple guide to discovering amazing
-                destinations around the world.
+                Travel Explorer helps curious travelers discover
+                beautiful destinations, interesting cultures and
+                unforgettable experiences around the world.
             </p>
 
         </div>
 
 
-        <div class="intro-grid">
+        <div class="feature-grid">
 
-            <div class="image-card">
+            <article class="feature-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80"
-                    alt="Beautiful mountain landscape for travel"
-                    width="1000"
-                    height="700"
-                    loading="lazy">
+                <div class="feature-icon">
+                    🌍
+                </div>
 
-            </div>
-
-
-            <div class="intro-content">
-
-                <span class="small-label">
-                    TRAVEL INSPIRATION
-                </span>
-
-                <h2>
-                    Make Every Journey Special
-                </h2>
+                <h3>
+                    Discover Destinations
+                </h3>
 
                 <p>
-                    Travelling gives us the opportunity to
-                    discover new places, experience different
-                    cultures and create memories that last a
-                    lifetime.
+                    Explore famous cities, peaceful islands,
+                    beautiful mountains and fascinating places
+                    across the world.
                 </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    🧭
+                </div>
+
+                <h3>
+                    Travel Inspiration
+                </h3>
 
                 <p>
-                    Travel Explorer provides destination ideas,
-                    travel inspiration and useful information
-                    for people who love exploring the world.
+                    Find ideas for your next vacation and learn
+                    about experiences that can make your journey
+                    more meaningful.
                 </p>
 
-
-                <ul class="check-list">
-
-                    <li>
-                        ✓ Beautiful destinations
-                    </li>
-
-                    <li>
-                        ✓ Travel inspiration
-                    </li>
-
-                    <li>
-                        ✓ Cultural experiences
-                    </li>
-
-                    <li>
-                        ✓ Adventure ideas
-                    </li>
-
-                </ul>
+            </article>
 
 
-                <a href="about.html"
-                   class="text-link">
-                    Discover Our Story →
-                </a>
+            <article class="feature-card">
 
-            </div>
+                <div class="feature-icon">
+                    📸
+                </div>
+
+                <h3>
+                    Create Memories
+                </h3>
+
+                <p>
+                    Discover places where you can experience
+                    local culture, nature, food and unforgettable
+                    moments.
+                </p>
+
+            </article>
 
         </div>
 
@@ -290,8 +308,7 @@
 
 <!-- ================= DESTINATIONS ================= -->
 
-<section class="section destinations-section"
-         id="destinations">
+<section class="section section-light">
 
     <div class="container">
 
@@ -302,12 +319,13 @@
             </span>
 
             <h2>
-                Explore Amazing Places
+                Places Worth Exploring
             </h2>
 
             <p>
-                Discover some of the world's most beautiful
-                travel destinations.
+                Explore some of the world's most fascinating
+                destinations and find inspiration for your
+                next vacation.
             </p>
 
         </div>
@@ -322,33 +340,35 @@
 
                 <div class="card-image">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"
-                        alt="Eiffel Tower in Paris France"
-                        width="900"
-                        height="600"
-                        loading="lazy">
+                    <img src="images/paris.jpg"
+                         alt="Eiffel Tower in Paris France"
+                         loading="lazy">
 
-                    <span class="country-tag">
-                        France
+                    <span class="card-badge">
+                        Europe
                     </span>
 
                 </div>
 
 
-                <div class="card-body">
+                <div class="card-content">
 
                     <h3>
-                        Paris
+                        Paris, France
                     </h3>
 
                     <p>
-                        Experience the Eiffel Tower, historic
-                        streets, museums and French culture.
+                        Discover historic architecture, famous
+                        landmarks, art, cuisine and the romantic
+                        atmosphere of Paris.
                     </p>
 
-                    <a href="destinations.html#paris">
-                        Explore Paris →
+                    <a href="paris.html"
+                       class="text-link">
+
+                        Explore Paris
+                        <span>→</span>
+
                     </a>
 
                 </div>
@@ -362,33 +382,35 @@
 
                 <div class="card-image">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80"
-                        alt="Tropical Bali Indonesia travel destination"
-                        width="900"
-                        height="600"
-                        loading="lazy">
+                    <img src="images/bali.jpg"
+                         alt="Tropical beach and palm trees in Bali Indonesia"
+                         loading="lazy">
 
-                    <span class="country-tag">
-                        Indonesia
+                    <span class="card-badge">
+                        Asia
                     </span>
 
                 </div>
 
 
-                <div class="card-body">
+                <div class="card-content">
 
                     <h3>
-                        Bali
+                        Bali, Indonesia
                     </h3>
 
                     <p>
-                        Enjoy tropical beaches, ancient temples,
-                        forests and peaceful landscapes.
+                        Experience tropical beaches, temples,
+                        rice terraces and the unique culture
+                        of beautiful Bali.
                     </p>
 
-                    <a href="destinations.html#bali">
-                        Explore Bali →
+                    <a href="bali.html"
+                       class="text-link">
+
+                        Explore Bali
+                        <span>→</span>
+
                     </a>
 
                 </div>
@@ -402,33 +424,35 @@
 
                 <div class="card-image">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80"
-                        alt="Swiss Alps mountains and lake"
-                        width="900"
-                        height="600"
-                        loading="lazy">
+                    <img src="images/switzerland.jpg"
+                         alt="Swiss Alps mountains and beautiful lake in Switzerland"
+                         loading="lazy">
 
-                    <span class="country-tag">
-                        Switzerland
+                    <span class="card-badge">
+                        Europe
                     </span>
 
                 </div>
 
 
-                <div class="card-body">
+                <div class="card-content">
 
                     <h3>
                         Switzerland
                     </h3>
 
                     <p>
-                        Explore magnificent mountains, beautiful
-                        lakes and breathtaking scenery.
+                        Explore magnificent Alps, peaceful lakes,
+                        charming villages and spectacular
+                        mountain scenery.
                     </p>
 
-                    <a href="destinations.html#switzerland">
-                        Explore Switzerland →
+                    <a href="switzerland.html"
+                       class="text-link">
+
+                        Explore Switzerland
+                        <span>→</span>
+
                     </a>
 
                 </div>
@@ -441,8 +465,10 @@
         <div class="center-button">
 
             <a href="destinations.html"
-               class="btn btn-primary">
+               class="button button-dark">
+
                 View All Destinations
+
             </a>
 
         </div>
@@ -452,97 +478,146 @@
 </section>
 
 
-<!-- ================= BENEFITS ================= -->
+<!-- ================= TRAVEL GUIDE ================= -->
 
-<section class="section benefits-section">
+<section class="section">
 
     <div class="container">
 
-        <div class="section-heading">
+        <div class="content-reading">
 
             <span class="eyebrow">
-                WHY TRAVEL?
+                TRAVEL GUIDE
             </span>
 
             <h2>
-                Experience More Than Just Places
+                Why Exploring New Destinations Matters
             </h2>
+
+
+            <h3>
+                Discover New Cultures
+            </h3>
+
+            <p>
+                Travelling allows people to experience different
+                cultures, traditions, food, languages and
+                lifestyles. Visiting a new destination can provide
+                a better understanding of how people live in
+                different parts of the world.
+            </p>
+
+
+            <h3>
+                Find Beautiful Places
+            </h3>
+
+            <p>
+                From peaceful beaches and tropical islands to
+                dramatic mountains and historic cities, the world
+                offers countless destinations to explore.
+                Travel Explorer brings together destination ideas
+                to help visitors discover places that match
+                their interests.
+            </p>
+
+
+            <h3>
+                Plan Meaningful Journeys
+            </h3>
+
+            <p>
+                A successful journey begins with good planning.
+                Travelers can research destinations, understand
+                local attractions and decide what experiences
+                they would like to enjoy. Planning can make a
+                journey more comfortable and enjoyable.
+            </p>
+
+
+            <h3>
+                Travel Responsibly
+            </h3>
+
+            <p>
+                Responsible tourism is an important part of
+                modern travel. Visitors should respect local
+                communities, traditions and natural environments.
+                Supporting local businesses and protecting
+                natural places can help make tourism more
+                sustainable.
+            </p>
+
+
+            <p>
+                Explore our
+                <a href="destinations.html">
+                    travel destinations
+                </a>,
+                learn more
+                <a href="about.html">
+                    about Travel Explorer
+                </a>,
+                or visit our
+                <a href="contact.html">
+                    contact page
+                </a>
+                to get in touch.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats-section">
+
+    <div class="container stats-grid">
+
+        <div class="stat">
+
+            <strong>50+</strong>
+
+            <span>
+                Destinations
+            </span>
 
         </div>
 
 
-        <div class="benefits-grid">
+        <div class="stat">
 
-            <div class="benefit-card">
+            <strong>20+</strong>
 
-                <div class="benefit-icon">
-                    🌎
-                </div>
+            <span>
+                Travel Guides
+            </span>
 
-                <h3>
-                    Explore
-                </h3>
-
-                <p>
-                    Discover new destinations and hidden
-                    places around the world.
-                </p>
-
-            </div>
+        </div>
 
 
-            <div class="benefit-card">
+        <div class="stat">
 
-                <div class="benefit-icon">
-                    📸
-                </div>
+            <strong>100+</strong>
 
-                <h3>
-                    Create Memories
-                </h3>
+            <span>
+                Travel Ideas
+            </span>
 
-                <p>
-                    Capture meaningful moments that you
-                    will remember for years.
-                </p>
-
-            </div>
+        </div>
 
 
-            <div class="benefit-card">
+        <div class="stat">
 
-                <div class="benefit-icon">
-                    🌏
-                </div>
+            <strong>24/7</strong>
 
-                <h3>
-                    Experience Culture
-                </h3>
-
-                <p>
-                    Learn about different cultures,
-                    traditions and lifestyles.
-                </p>
-
-            </div>
-
-
-            <div class="benefit-card">
-
-                <div class="benefit-icon">
-                    🧭
-                </div>
-
-                <h3>
-                    Find Adventure
-                </h3>
-
-                <p>
-                    Discover exciting activities and
-                    new travel experiences.
-                </p>
-
-            </div>
+            <span>
+                Inspiration
+            </span>
 
         </div>
 
@@ -553,14 +628,14 @@
 
 <!-- ================= FAQ ================= -->
 
-<section class="section faq-section">
+<section class="section">
 
-    <div class="container faq-container">
+    <div class="container">
 
         <div class="section-heading">
 
             <span class="eyebrow">
-                TRAVEL FAQ
+                FAQ
             </span>
 
             <h2>
@@ -570,80 +645,55 @@
         </div>
 
 
-        <details>
+        <div class="faq">
 
-            <summary>
-                What is Travel Explorer?
-            </summary>
+            <details>
 
-            <p>
-                Travel Explorer is a simple travel information
-                website created to help visitors discover
-                beautiful destinations and travel ideas.
-            </p>
+                <summary>
+                    What is Travel Explorer?
+                </summary>
 
-        </details>
+                <p>
+                    Travel Explorer is an educational travel
+                    website designed to provide destination
+                    information, travel inspiration and vacation
+                    ideas.
+                </p>
 
-
-        <details>
-
-            <summary>
-                Which destinations can I explore?
-            </summary>
-
-            <p>
-                You can explore destinations such as Paris,
-                Bali and Switzerland, with more destinations
-                available through our destination guide.
-            </p>
-
-        </details>
+            </details>
 
 
-        <details>
+            <details>
 
-            <summary>
-                Can I contact Travel Explorer?
-            </summary>
+                <summary>
+                    Which destinations can I explore?
+                </summary>
 
-            <p>
-                Yes. Visit our
-                <a href="contact.html">
-                    Contact page
-                </a>
-                to send us a message.
-            </p>
+                <p>
+                    Our website currently features destinations
+                    including Paris, Bali and Switzerland.
+                    Additional destinations can be added in
+                    the future.
+                </p>
 
-        </details>
-
-    </div>
-
-</section>
+            </details>
 
 
-<!-- ================= CTA ================= -->
+            <details>
 
-<section class="cta-section">
+                <summary>
+                    Is Travel Explorer a booking website?
+                </summary>
 
-    <div class="container">
+                <p>
+                    No. Travel Explorer is an educational project
+                    created to provide travel information and
+                    inspiration.
+                </p>
 
-        <span class="eyebrow">
-            START YOUR JOURNEY
-        </span>
+            </details>
 
-        <h2>
-            Where Will You Go Next?
-        </h2>
-
-        <p>
-            Explore destinations and start planning your
-            next unforgettable adventure.
-        </p>
-
-        <a href="destinations.html"
-           class="btn btn-white">
-            Explore Destinations
-        </a>
+        </div>
 
     </div>
 
@@ -654,22 +704,25 @@
 
 <!-- ================= FOOTER ================= -->
 
-<footer class="site-footer">
+<footer class="footer">
 
     <div class="container footer-grid">
+
 
         <div>
 
             <a href="index.html"
-               class="footer-logo">
+               class="logo footer-logo">
 
-                ✈ Travel Explorer
+                <span class="logo-icon">✈</span>
+
+                Travel<span>Explorer</span>
 
             </a>
 
             <p>
-                Discover beautiful destinations, travel
-                inspiration and unforgettable experiences.
+                Discover beautiful places, explore new cultures
+                and create unforgettable travel memories.
             </p>
 
         </div>
@@ -703,19 +756,28 @@
         <div>
 
             <h3>
-                Travel Resources
+                Contact
             </h3>
 
-            <a href="https://www.google.com/travel/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Google Travel
+            <address class="business-address">
+
+                <strong>
+                    Travel Explorer
+                </strong><br>
+
+                123 Travel Avenue,<br>
+                Andheri East,<br>
+                Mumbai, Maharashtra 400069,<br>
+                India
+
+            </address>
+
+            <a href="tel:+919876543210">
+                +91 98765 43210
             </a>
 
-            <a href="https://www.lonelyplanet.com/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Lonely Planet
+            <a href="mailto:travel@example.com">
+                Contact Travel Explorer
             </a>
 
         </div>
@@ -724,36 +786,63 @@
         <div>
 
             <h3>
-                Contact
+                Follow Us
             </h3>
 
             <p>
-                📧 travel@example.com
+                Connect with Travel Explorer online.
             </p>
 
-            <p>
-                📞 +91 98765 43210
-            </p>
+            <div class="social-links">
 
-            <p>
-                📍 Mumbai, Maharashtra, India
-            </p>
+                <a href="#"
+                   aria-label="Travel Explorer Facebook">
+                    Facebook
+                </a>
+
+                <a href="#"
+                   aria-label="Travel Explorer Instagram">
+                    Instagram
+                </a>
+
+                <a href="#"
+                   aria-label="Travel Explorer X">
+                    X
+                </a>
+
+                <a href="#"
+                   aria-label="Travel Explorer YouTube">
+                    YouTube
+                </a>
+
+                <a href="#"
+                   aria-label="Travel Explorer LinkedIn">
+                    LinkedIn
+                </a>
+
+            </div>
 
         </div>
 
     </div>
 
 
-    <div class="copyright">
+    <div class="footer-bottom">
 
-        <p>
-            © 2026 Travel Explorer. All Rights Reserved.
-        </p>
+        <div class="container">
+
+            <p>
+                © 2026 Travel Explorer. Educational IT Project.
+            </p>
+
+        </div>
 
     </div>
 
 </footer>
 
+
+<script src="script.js"></script>
 
 </body>
 </html>
