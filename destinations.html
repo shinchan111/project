@@ -3,86 +3,46 @@
 
 <head>
 
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
-    <title>
-        Travel Destinations | Paris, Bali & Switzerland
-    </title>
+<title>Travel Destinations | Explore Beautiful Places</title>
 
-    <meta name="description"
-          content="Explore popular travel destinations including Paris, Bali and Switzerland with Travel Explorer.">
+<meta name="description"
+      content="Explore beautiful travel destinations including Paris, Bali and Switzerland with Travel Explorer destination guides.">
 
-    <meta name="keywords"
-          content="travel destinations, Paris travel, Bali travel, Switzerland travel, vacation destinations">
+<meta name="keywords"
+      content="travel destinations, Paris travel, Bali travel, Switzerland travel, vacation destinations">
 
-    <meta name="author"
-          content="Travel Explorer">
+<meta name="author"
+      content="Travel Explorer">
 
-    <meta name="robots"
-          content="index, follow">
+<meta name="robots"
+      content="index, follow">
 
-    <link rel="canonical"
-          href="https://project-rosy-delta-79.vercel.app/destinations.html">
+<link rel="canonical"
+      href="https://project-rosy-delta-79.vercel.app/destinations.html">
 
+<link rel="icon"
+      href="favicon.svg"
+      type="image/svg+xml">
 
-    <!-- Open Graph -->
+<meta property="og:type"
+      content="website">
 
-    <meta property="og:title"
-          content="Travel Destinations | Travel Explorer">
+<meta property="og:title"
+      content="Travel Destinations | Travel Explorer">
 
-    <meta property="og:description"
-          content="Explore beautiful destinations including Paris, Bali and Switzerland.">
+<meta property="og:description"
+      content="Explore inspiring destinations around the world.">
 
-    <meta property="og:type"
-          content="website">
+<meta property="og:url"
+      content="https://project-rosy-delta-79.vercel.app/destinations.html">
 
-    <meta property="og:url"
-          content="https://project-rosy-delta-79.vercel.app/destinations.html">
-
-    <meta property="og:image"
-          content="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80">
-
-
-    <link rel="icon"
-          href="favicon.svg"
-          type="image/svg+xml">
-
-    <link rel="stylesheet"
-          href="style.css">
-
-
-    <!-- ItemList Schema -->
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Travel Explorer Destinations",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Paris",
-                "url": "https://project-rosy-delta-79.vercel.app/destinations.html#paris"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Bali",
-                "url": "https://project-rosy-delta-79.vercel.app/destinations.html#bali"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Switzerland",
-                "url": "https://project-rosy-delta-79.vercel.app/destinations.html#switzerland"
-            }
-        ]
-    }
-    </script>
+<link rel="stylesheet"
+      href="style.css">
 
 </head>
 
@@ -92,41 +52,53 @@
 
 <header class="site-header">
 
-    <div class="container nav-wrapper">
+<nav class="navbar container">
 
-        <a href="index.html"
-           class="logo">
+<a href="index.html"
+   class="logo">
 
-            <span class="logo-icon">✈</span>
+<span class="logo-icon">✈</span>
 
-            Travel<span>Explorer</span>
+Travel<span>Explorer</span>
 
-        </a>
+</a>
 
 
-        <nav class="main-nav"
-             aria-label="Primary navigation">
+<button class="menu-toggle"
+        aria-label="Open navigation menu">
 
-            <a href="index.html">
-                Home
-            </a>
+☰
 
-            <a href="destinations.html"
-               class="active">
-                Destinations
-            </a>
+</button>
 
-            <a href="about.html">
-                About
-            </a>
 
-            <a href="contact.html">
-                Contact
-            </a>
+<div class="nav-links">
 
-        </nav>
+<a href="index.html">
+Home
+</a>
 
-    </div>
+<a href="destinations.html"
+   class="active">
+Destinations
+</a>
+
+<a href="about.html">
+About
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+<a href="destinations.html"
+   class="nav-button">
+Explore Now
+</a>
+
+</div>
+
+</nav>
 
 </header>
 
@@ -136,256 +108,218 @@
 
 <section class="page-hero">
 
-    <div class="container">
+<div class="container">
 
-        <span class="eyebrow">
-            EXPLORE THE WORLD
-        </span>
+<span class="eyebrow light">
+EXPLORE THE WORLD
+</span>
 
-        <h1>
-            Travel Destinations
-        </h1>
+<h1>
+Beautiful Travel Destinations
+</h1>
 
-        <p>
-            Discover beautiful places and find inspiration
-            for your next journey.
-        </p>
+<p>
+Discover fascinating cities, peaceful beaches,
+mountains and unforgettable places around the world.
+</p>
 
-    </div>
+</div>
 
 </section>
 
 
 <section class="section">
 
-    <div class="container">
+<div class="container">
 
-        <div class="section-heading">
 
-            <span class="eyebrow">
-                FEATURED DESTINATIONS
-            </span>
+<div class="section-heading">
 
-            <h2>
-                Places Worth Exploring
-            </h2>
+<span class="eyebrow">
+FEATURED PLACES
+</span>
 
-        </div>
+<h2>
+Explore Our Destinations
+</h2>
 
+<p>
+Choose a destination and discover travel ideas,
+interesting attractions and experiences.
+</p>
 
-        <!-- Paris -->
+</div>
 
-        <article class="destination-detail"
-                 id="paris">
 
-            <div class="detail-image">
+<div class="destination-grid">
 
-                <img
-                    src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=80"
-                    alt="Eiffel Tower and Paris skyline"
-                    width="1000"
-                    height="700"
-                    loading="lazy">
 
-            </div>
+<article class="destination-card">
 
+<div class="card-image">
 
-            <div class="detail-content">
+<img src="images/paris.jpg"
+     alt="Eiffel Tower and Paris city view"
+     loading="lazy">
 
-                <span class="small-label">
-                    🇫🇷 FRANCE
-                </span>
+<span class="card-badge">
+France
+</span>
 
-                <h2>
-                    Paris
-                </h2>
+</div>
 
-                <p>
-                    Paris is famous for its architecture,
-                    art, museums, historic streets and
-                    world-famous landmarks.
-                </p>
+<div class="card-content">
 
-                <h3>
-                    Things to Explore
-                </h3>
+<h3>
+Paris
+</h3>
 
-                <ul class="check-list">
+<p>
+Paris is known for its architecture, museums,
+art, cuisine and iconic Eiffel Tower.
+</p>
 
-                    <li>
-                        Eiffel Tower
-                    </li>
+<a href="paris.html"
+   class="text-link">
 
-                    <li>
-                        Louvre Museum
-                    </li>
+Read Paris Guide →
 
-                    <li>
-                        Seine River
-                    </li>
+</a>
 
-                    <li>
-                        Historic Paris streets
-                    </li>
+</div>
 
-                </ul>
+</article>
 
-            </div>
 
-        </article>
+<article class="destination-card">
 
+<div class="card-image">
 
-        <!-- Bali -->
+<img src="images/bali.jpg"
+     alt="Tropical Bali beach with palm trees"
+     loading="lazy">
 
-        <article class="destination-detail reverse"
-                 id="bali">
+<span class="card-badge">
+Indonesia
+</span>
 
-            <div class="detail-image">
+</div>
 
-                <img
-                    src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=80"
-                    alt="Traditional Bali temple surrounded by tropical nature"
-                    width="1000"
-                    height="700"
-                    loading="lazy">
+<div class="card-content">
 
-            </div>
+<h3>
+Bali
+</h3>
 
+<p>
+Bali offers tropical beaches, temples, natural
+landscapes and a fascinating local culture.
+</p>
 
-            <div class="detail-content">
+<a href="bali.html"
+   class="text-link">
 
-                <span class="small-label">
-                    🇮🇩 INDONESIA
-                </span>
+Read Bali Guide →
 
-                <h2>
-                    Bali
-                </h2>
+</a>
 
-                <p>
-                    Bali offers tropical beaches, beautiful
-                    temples, lush forests and unique cultural
-                    experiences.
-                </p>
+</div>
 
-                <h3>
-                    Things to Explore
-                </h3>
+</article>
 
-                <ul class="check-list">
 
-                    <li>
-                        Tropical beaches
-                    </li>
+<article class="destination-card">
 
-                    <li>
-                        Ancient temples
-                    </li>
+<div class="card-image">
 
-                    <li>
-                        Rice terraces
-                    </li>
+<img src="images/switzerland.jpg"
+     alt="Swiss Alps and mountain lake"
+     loading="lazy">
 
-                    <li>
-                        Local culture
-                    </li>
+<span class="card-badge">
+Switzerland
+</span>
 
-                </ul>
+</div>
 
-            </div>
+<div class="card-content">
 
-        </article>
+<h3>
+Switzerland
+</h3>
 
+<p>
+Switzerland is famous for the Alps, beautiful
+lakes, villages and scenic mountain landscapes.
+</p>
 
-        <!-- Switzerland -->
+<a href="switzerland.html"
+   class="text-link">
 
-        <article class="destination-detail"
-                 id="switzerland">
+Read Switzerland Guide →
 
-            <div class="detail-image">
+</a>
 
-                <img
-                    src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80"
-                    alt="Swiss Alps mountains and beautiful blue lake"
-                    width="1000"
-                    height="700"
-                    loading="lazy">
+</div>
 
-            </div>
+</article>
 
+</div>
 
-            <div class="detail-content">
-
-                <span class="small-label">
-                    🇨🇭 SWITZERLAND
-                </span>
-
-                <h2>
-                    Switzerland
-                </h2>
-
-                <p>
-                    Switzerland is known for its magnificent
-                    Alps, peaceful lakes, villages and
-                    breathtaking landscapes.
-                </p>
-
-                <h3>
-                    Things to Explore
-                </h3>
-
-                <ul class="check-list">
-
-                    <li>
-                        Swiss Alps
-                    </li>
-
-                    <li>
-                        Mountain lakes
-                    </li>
-
-                    <li>
-                        Scenic railways
-                    </li>
-
-                    <li>
-                        Alpine villages
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </article>
-
-
-    </div>
+</div>
 
 </section>
 
 
-<section class="cta-section">
+<section class="section section-light">
 
-    <div class="container">
+<div class="container content-reading">
 
-        <span class="eyebrow">
-            HAVE QUESTIONS?
-        </span>
+<h2>
+How to Choose a Travel Destination
+</h2>
 
-        <h2>
-            Plan Your Next Adventure
-        </h2>
+<p>
+Choosing a destination depends on your interests,
+budget, available time and preferred travel experience.
+Some travelers prefer beaches and relaxation while
+others enjoy mountains, historical places, museums or
+adventure activities.
+</p>
 
-        <p>
-            Contact Travel Explorer for more information.
-        </p>
+<h3>
+Consider the Season
+</h3>
 
-        <a href="contact.html"
-           class="btn btn-white">
-            Contact Us
-        </a>
+<p>
+Weather can have a major impact on your travel experience.
+Researching the best season before travelling can help
+you enjoy outdoor activities and attractions.
+</p>
 
-    </div>
+<h3>
+Research Local Experiences
+</h3>
+
+<p>
+A destination is more than its famous landmarks.
+Learning about local food, traditions, markets and
+communities can make a trip more interesting and
+memorable.
+</p>
+
+<h3>
+Plan Responsibly
+</h3>
+
+<p>
+Responsible travelers respect local communities,
+protect natural environments and follow local rules.
+Sustainable tourism helps preserve destinations for
+future visitors.
+</p>
+
+</div>
 
 </section>
 
@@ -393,101 +327,128 @@
 </main>
 
 
-<footer class="site-footer">
+<footer class="footer">
 
-    <div class="container footer-grid">
+<div class="container footer-grid">
 
-        <div>
+<div>
 
-            <a href="index.html"
-               class="footer-logo">
-                ✈ Travel Explorer
-            </a>
+<a href="index.html"
+   class="logo footer-logo">
 
-            <p>
-                Discover destinations and create
-                unforgettable memories.
-            </p>
+<span class="logo-icon">✈</span>
 
-        </div>
+Travel<span>Explorer</span>
 
+</a>
 
-        <div>
+<p>
+Travel inspiration for curious explorers.
+</p>
 
-            <h3>
-                Quick Links
-            </h3>
-
-            <a href="index.html">
-                Home
-            </a>
-
-            <a href="destinations.html">
-                Destinations
-            </a>
-
-            <a href="about.html">
-                About
-            </a>
-
-            <a href="contact.html">
-                Contact
-            </a>
-
-        </div>
+</div>
 
 
-        <div>
+<div>
 
-            <h3>
-                Resources
-            </h3>
+<h3>
+Quick Links
+</h3>
 
-            <a href="https://www.google.com/travel/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Google Travel
-            </a>
+<a href="index.html">
+Home
+</a>
 
-            <a href="https://www.lonelyplanet.com/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Lonely Planet
-            </a>
+<a href="destinations.html">
+Destinations
+</a>
 
-        </div>
+<a href="about.html">
+About
+</a>
 
+<a href="contact.html">
+Contact
+</a>
 
-        <div>
-
-            <h3>
-                Contact
-            </h3>
-
-            <p>
-                📧 travel@example.com
-            </p>
-
-            <p>
-                📞 +91 98765 43210
-            </p>
-
-        </div>
-
-    </div>
+</div>
 
 
-    <div class="copyright">
+<div>
 
-        <p>
-            © 2026 Travel Explorer.
-            All Rights Reserved.
-        </p>
+<h3>
+Contact
+</h3>
 
-    </div>
+<address>
+
+Travel Explorer<br>
+123 Travel Avenue<br>
+Andheri East<br>
+Mumbai, Maharashtra 400069<br>
+India
+
+</address>
+
+<a href="tel:+919876543210">
++91 98765 43210
+</a>
+
+</div>
+
+
+<div>
+
+<h3>
+Follow Us
+</h3>
+
+<div class="social-links">
+
+<a href="#">
+Facebook
+</a>
+
+<a href="#">
+Instagram
+</a>
+
+<a href="#">
+X
+</a>
+
+<a href="#">
+YouTube
+</a>
+
+<a href="#">
+LinkedIn
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="footer-bottom">
+
+<div class="container">
+
+<p>
+© 2026 Travel Explorer. Educational IT Project.
+</p>
+
+</div>
+
+</div>
 
 </footer>
 
 
+<script src="script.js"></script>
+
 </body>
+
 </html>
