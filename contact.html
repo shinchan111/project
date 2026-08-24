@@ -8,34 +8,85 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
 
-    <title>Contact Us | Travel Explorer</title>
+    <title>Contact Travel Explorer | Travel Information</title>
 
     <meta name="description"
-        content="Contact Travel Explorer for travel information,
-        suggestions and enquiries.">
+        content="Contact Travel Explorer for travel information, destination suggestions and travel enquiries.">
 
-    <link rel="stylesheet" href="style.css">
+    <meta name="keywords"
+        content="contact travel explorer, travel enquiry, travel information">
+
+    <meta name="author"
+        content="Travel Explorer">
+
+    <meta name="robots"
+        content="index, follow">
+
+    <link rel="canonical"
+        href="https://project-rosy-delta-79.vercel.app/contact.html">
+
+
+    <!-- Open Graph -->
+
+    <meta property="og:title"
+        content="Contact Travel Explorer">
+
+    <meta property="og:description"
+        content="Contact Travel Explorer for travel information and destination suggestions.">
+
+    <meta property="og:type"
+        content="website">
+
+    <meta property="og:url"
+        content="https://project-rosy-delta-79.vercel.app/contact.html">
+
+
+    <link rel="stylesheet"
+        href="style.css">
+
+
+    <!-- Contact Schema -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Travel Explorer",
+        "url": "https://project-rosy-delta-79.vercel.app/contact.html"
+    }
+    </script>
 
 </head>
 
+
 <body>
 
-    <!-- Header -->
     <header class="header">
 
         <div class="container nav-container">
 
-            <div class="logo">
-                <span>✈</span> Travel Explorer
-            </div>
+            <a href="index.html"
+                class="logo">
 
-            <nav>
+                <span>✈</span>
+                Travel Explorer
 
-                <a href="index.html">Home</a>
+            </a>
 
-                <a href="about.html">About</a>
+            <nav aria-label="Main navigation">
 
-                <a href="contact.html" class="active">Contact</a>
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html"
+                    class="active">
+                    Contact
+                </a>
 
             </nav>
 
@@ -44,185 +95,244 @@
     </header>
 
 
-    <!-- Banner -->
-    <section class="page-banner">
+    <main>
 
-        <div>
+        <section class="page-banner">
 
-            <p>WE WOULD LOVE TO HEAR FROM YOU</p>
+            <div>
 
-            <h1>Contact Us</h1>
+                <p>
+                    WE WOULD LOVE TO HEAR FROM YOU
+                </p>
 
-        </div>
+                <h1>
+                    Contact Us
+                </h1>
 
-    </section>
+            </div>
 
-
-    <!-- Contact Section -->
-    <section class="section">
-
-        <div class="container">
-
-            <div class="contact-grid">
+        </section>
 
 
-                <!-- Contact Information -->
-                <div class="contact-info">
+        <section class="section">
 
-                    <p class="small-title">
-                        GET IN TOUCH
-                    </p>
+            <div class="container">
 
-                    <h2>
-                        Let's Talk About Your Next Journey
-                    </h2>
-
-                    <p>
-                        Have a question, suggestion or travel idea?
-                        Send us a message and we will be happy to hear
-                        from you.
-                    </p>
+                <div class="contact-grid">
 
 
-                    <div class="contact-item">
+                    <div class="contact-info">
 
-                        <div class="contact-icon">📧</div>
+                        <p class="small-title">
+                            GET IN TOUCH
+                        </p>
 
-                        <div>
-                            <h3>Email</h3>
-                            <p>travel@example.com</p>
+                        <h2>
+                            Let's Talk About
+                            Your Next Journey
+                        </h2>
+
+                        <p>
+                            Have a question, suggestion or travel
+                            idea? Send us a message.
+                        </p>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                📧
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Email
+                                </h3>
+
+                                <p>
+                                    travel@example.com
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                📞
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Phone
+                                </h3>
+
+                                <p>
+                                    +91 98765 43210
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                📍
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Location
+                                </h3>
+
+                                <p>
+                                    Mumbai, Maharashtra, India
+                                </p>
+
+                            </div>
+
                         </div>
 
                     </div>
 
 
-                    <div class="contact-item">
+                    <div class="contact-form">
 
-                        <div class="contact-icon">📞</div>
+                        <form>
 
-                        <div>
-                            <h3>Phone</h3>
-                            <p>+91 98765 43210</p>
-                        </div>
+                            <label for="name">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                autocomplete="name"
+                                required>
+
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email"
+                                autocomplete="email"
+                                required>
+
+
+                            <label for="subject">
+                                Subject
+                            </label>
+
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="Enter subject">
+
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Write your message..."
+                                required></textarea>
+
+
+                            <button
+                                type="submit"
+                                class="btn">
+
+                                Send Message
+
+                            </button>
+
+                        </form>
 
                     </div>
-
-
-                    <div class="contact-item">
-
-                        <div class="contact-icon">📍</div>
-
-                        <div>
-                            <h3>Location</h3>
-                            <p>Mumbai, Maharashtra, India</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Contact Form -->
-                <div class="contact-form">
-
-                    <form>
-
-                        <label for="name">
-                            Full Name
-                        </label>
-
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            placeholder="Enter your name"
-                            required>
-
-
-                        <label for="email">
-                            Email Address
-                        </label>
-
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="Enter your email"
-                            required>
-
-
-                        <label for="subject">
-                            Subject
-                        </label>
-
-                        <input
-                            type="text"
-                            id="subject"
-                            name="subject"
-                            placeholder="Enter subject">
-
-
-                        <label for="message">
-                            Message
-                        </label>
-
-                        <textarea
-                            id="message"
-                            name="message"
-                            rows="6"
-                            placeholder="Write your message..."
-                            required></textarea>
-
-
-                        <button type="submit" class="btn">
-                            Send Message
-                        </button>
-
-                    </form>
 
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
+    </main>
 
 
-    <!-- Footer -->
     <footer>
 
         <div class="container footer-content">
 
             <div>
 
-                <h3>✈ Travel Explorer</h3>
+                <h3>
+                    ✈ Travel Explorer
+                </h3>
 
                 <p>
-                    Discover the world and create beautiful memories.
+                    Discover the world and create
+                    beautiful memories.
                 </p>
 
             </div>
 
+
             <div>
 
-                <h3>Quick Links</h3>
+                <h3>
+                    Quick Links
+                </h3>
 
-                <a href="index.html">Home</a>
+                <a href="index.html">
+                    Home
+                </a>
 
-                <a href="about.html">About</a>
+                <a href="about.html">
+                    About
+                </a>
 
-                <a href="contact.html">Contact</a>
+                <a href="contact.html">
+                    Contact
+                </a>
 
             </div>
 
+
             <div>
 
-                <h3>Contact</h3>
+                <h3>
+                    Travel Resources
+                </h3>
 
-                <p>📧 travel@example.com</p>
+                <a href="https://www.google.com/travel/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Google Travel
+                </a>
 
-                <p>📞 +91 98765 43210</p>
+                <a href="https://www.lonelyplanet.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Lonely Planet
+                </a>
 
             </div>
 
@@ -232,7 +342,8 @@
         <div class="copyright">
 
             <p>
-                © 2026 Travel Explorer. All Rights Reserved.
+                © 2026 Travel Explorer.
+                All Rights Reserved.
             </p>
 
         </div>
