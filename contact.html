@@ -8,23 +8,22 @@
 <meta name="viewport"
       content="width=device-width, initial-scale=1.0">
 
-<title>Contact Travel Explorer | Get in Touch</title>
+<title>Contact Travel Explorer | Travel Information & Support</title>
 
 <meta name="description"
-      content="Contact Travel Explorer for questions, suggestions and feedback about our travel destination website.">
+      content="Contact Travel Explorer for travel information, destination suggestions and questions about our travel guides.">
 
 <meta name="keywords"
-      content="contact Travel Explorer, travel contact, travel information">
+      content="contact Travel Explorer, travel information, travel support, travel guide">
 
 <meta name="robots"
       content="index, follow">
 
 <link rel="canonical"
-      href="https://project-rosy-delta-79.vercel.app/contact.html">
+      href="https://your-domain.vercel.app/contact.html">
 
 <link rel="icon"
-      href="favicon.svg"
-      type="image/svg+xml">
+      href="images/favicon.png">
 
 <link rel="stylesheet"
       href="style.css">
@@ -34,34 +33,17 @@
 
 <body>
 
+<header class="header">
 
-<header class="site-header">
+<div class="container nav">
 
-<nav class="navbar container">
-
-<a href="index.html"
-   class="logo">
-
-<span class="logo-icon">✈</span>
-
-Travel<span>Explorer</span>
-
+<a href="index.html" class="logo">
+✈ Travel <span>Explorer</span>
 </a>
 
+<nav aria-label="Main Navigation">
 
-<button class="menu-toggle"
-        aria-label="Open navigation menu">
-
-☰
-
-</button>
-
-
-<div class="nav-links">
-
-<a href="index.html">
-Home
-</a>
+<a href="index.html">Home</a>
 
 <a href="destinations.html">
 Destinations
@@ -71,35 +53,32 @@ Destinations
 About
 </a>
 
-<a href="contact.html"
-   class="active">
+<a href="contact.html" class="active">
 Contact
 </a>
 
-</div>
-
 </nav>
+
+</div>
 
 </header>
 
 
 <main>
 
-
 <section class="page-hero">
 
 <div class="container">
 
-<span class="eyebrow light">
+<p class="section-label">
 GET IN TOUCH
-</span>
+</p>
 
-<h1>
-Contact Travel Explorer
-</h1>
+<h1>Contact Travel Explorer</h1>
 
 <p>
-Have a question or suggestion? We would love to hear from you.
+Have a question or need travel inspiration?
+We would love to hear from you.
 </p>
 
 </div>
@@ -114,136 +93,71 @@ Have a question or suggestion? We would love to hear from you.
 
 <div>
 
-<span class="eyebrow">
-CONTACT INFORMATION
-</span>
+<img src="images/contact-travel.jpg"
+     alt="Travel planning with a map, passport and camera"
+     loading="lazy">
 
-<h2>
-Let's Connect
-</h2>
+</div>
+
+
+<div>
+
+<p class="section-label">
+CONTACT US
+</p>
+
+<h2>Let's Start Your Next Adventure</h2>
 
 <p>
-If you have feedback, questions or suggestions about
-Travel Explorer, you can contact us using the information
-below.
+Send us a message using the form and share your
+travel ideas or questions.
 </p>
 
 
-<div class="contact-item">
-
-<strong>
-📍 Address
-</strong>
-
-<address>
-
-Travel Explorer<br>
-123 Travel Avenue<br>
-Andheri East<br>
-Mumbai, Maharashtra 400069<br>
-India
-
-</address>
-
-</div>
-
-
-<div class="contact-item">
-
-<strong>
-📞 Phone
-</strong>
-
-<p>
-
-<a href="tel:+919876543210">
-+91 98765 43210
-</a>
-
-</p>
-
-</div>
-
-
-<div class="contact-item">
-
-<strong>
-✉ Email
-</strong>
-
-<p>
-
-<a href="mailto:travel@example.com">
-Contact Travel Explorer
-</a>
-
-</p>
-
-</div>
-
-</div>
-
-
-<div class="contact-form-wrapper">
-
-<form id="contactForm"
-      class="contact-form">
+<form action="#" method="post">
 
 <label for="name">
 Your Name
 </label>
 
-<input type="text"
-       id="name"
-       name="name"
-       placeholder="Enter your name"
-       required>
+<input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Enter your name"
+    required
+>
 
 
 <label for="email">
 Email Address
 </label>
 
-<input type="email"
-       id="email"
-       name="email"
-       placeholder="Enter your email"
-       required>
-
-
-<label for="subject">
-Subject
-</label>
-
-<input type="text"
-       id="subject"
-       name="subject"
-       placeholder="Enter subject"
-       required>
+<input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Enter your email"
+    required
+>
 
 
 <label for="message">
-Message
+Your Message
 </label>
 
-<textarea id="message"
-          name="message"
-          rows="6"
-          placeholder="Write your message"
-          required></textarea>
+<textarea
+    id="message"
+    name="message"
+    rows="6"
+    placeholder="Write your message..."
+    required
+></textarea>
 
 
-<button type="submit"
-        class="button button-dark">
-
+<button type="submit" class="btn">
 Send Message
-
 </button>
-
-
-<p id="formMessage"
-   class="form-message">
-</p>
 
 </form>
 
@@ -254,6 +168,53 @@ Send Message
 </section>
 
 
+<section class="section light">
+
+<div class="container">
+
+<div class="contact-info">
+
+<div>
+
+<h3>📍 Address</h3>
+
+<p>
+Travel Explorer<br>
+Mumbai, Maharashtra, India
+</p>
+
+</div>
+
+
+<div>
+
+<h3>📞 Phone</h3>
+
+<p>
+<a href="tel:+919876543210">
++91 98765 43210
+</a>
+</p>
+
+</div>
+
+
+<div>
+
+<h3>✉ Email</h3>
+
+<p>
+Use our contact form to get in touch.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
 </main>
 
 
@@ -263,17 +224,11 @@ Send Message
 
 <div>
 
-<a href="index.html"
-   class="logo footer-logo">
-
-<span class="logo-icon">✈</span>
-
-Travel<span>Explorer</span>
-
-</a>
+<h2>Travel Explorer</h2>
 
 <p>
-Explore destinations and create unforgettable memories.
+Discover the world and create unforgettable
+travel memories.
 </p>
 
 </div>
@@ -281,79 +236,38 @@ Explore destinations and create unforgettable memories.
 
 <div>
 
-<h3>
-Quick Links
-</h3>
+<h3>Pages</h3>
 
 <a href="index.html">Home</a>
 <a href="destinations.html">Destinations</a>
 <a href="about.html">About</a>
-<a href="contact.html">Contact</a>
 
 </div>
 
 
 <div>
 
-<h3>
-Contact
-</h3>
+<h3>Social Media</h3>
 
-<address>
-
-Travel Explorer<br>
-123 Travel Avenue<br>
-Andheri East<br>
-Mumbai, Maharashtra 400069<br>
-India
-
-</address>
-
-<a href="tel:+919876543210">
-+91 98765 43210
-</a>
-
-</div>
-
-
-<div>
-
-<h3>
-Follow Us
-</h3>
-
-<div class="social-links">
-
-<a href="#">Facebook</a>
-<a href="#">Instagram</a>
-<a href="#">X</a>
-<a href="#">YouTube</a>
-<a href="#">LinkedIn</a>
-
-</div>
+<a href="https://www.facebook.com/">Facebook</a>
+<a href="https://www.instagram.com/">Instagram</a>
+<a href="https://www.youtube.com/">YouTube</a>
+<a href="https://www.linkedin.com/">LinkedIn</a>
 
 </div>
 
 </div>
 
 
-<div class="footer-bottom">
-
-<div class="container">
+<div class="copyright">
 
 <p>
-© 2026 Travel Explorer.
+© 2026 Travel Explorer. All rights reserved.
 </p>
-
-</div>
 
 </div>
 
 </footer>
 
-
-<script src="script.js"></script>
-
 </body>
-
 </html>
