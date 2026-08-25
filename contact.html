@@ -8,10 +8,10 @@
 <meta name="viewport"
       content="width=device-width, initial-scale=1.0">
 
-<title>Contact Travel Explorer | Travel Information</title>
+<title>Contact Travel Explorer | Travel Information & Support</title>
 
 <meta name="description"
-      content="Contact Travel Explorer for travel website information, destination suggestions and feedback.">
+      content="Contact Travel Explorer for travel information, destination questions and website feedback. Find our location, phone number and contact form.">
 
 <meta name="robots"
       content="index, follow">
@@ -19,12 +19,12 @@
 <link rel="canonical"
       href="https://shinchan111.github.io/project/contact.html">
 
+<link rel="icon"
+      href="images/favicon.png">
+
 <link rel="stylesheet"
       href="style.css">
 
-<link rel="icon"
-      href="favicon.svg"
-      type="image/svg+xml">
 
 <meta property="og:type"
       content="website">
@@ -33,51 +33,72 @@
       content="Contact Travel Explorer">
 
 <meta property="og:description"
-      content="Contact Travel Explorer for travel information and feedback.">
+      content="Get in touch with Travel Explorer for travel information and destination questions.">
 
 <meta property="og:url"
       content="https://shinchan111.github.io/project/contact.html">
 
 <meta property="og:image"
-      content="https://shinchan111.github.io/project/og-image.jpg">
+      content="https://shinchan111.github.io/project/images/contact-travel.jpg">
 
+
+<meta name="twitter:card"
+      content="summary_large_image">
+
+<meta name="twitter:title"
+      content="Contact Travel Explorer">
+
+<meta name="twitter:description"
+      content="Contact Travel Explorer for travel information and support.">
+
+<meta name="twitter:image"
+      content="https://shinchan111.github.io/project/images/contact-travel.jpg">
+
+
+<!-- Local Business Schema -->
 
 <script type="application/ld+json">
+
 {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Travel Explorer",
-    "url": "https://shinchan111.github.io/project/",
-    "telephone": "+91-98765-43210",
-    "email": "contact@example.com",
-    "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-    },
-    "sameAs": [
-        "https://github.com/shinchan111/project"
-    ]
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "Travel Explorer",
+  "url": "https://shinchan111.github.io/project/",
+  "telephone": "+91-98765-43210",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Travel Explorer, Main Road",
+    "addressLocality": "Mumbai",
+    "addressRegion": "Maharashtra",
+    "postalCode": "400001",
+    "addressCountry": "IN"
+  }
 }
+
 </script>
 
 </head>
 
+
 <body>
 
-<header class="site-header">
+
+<header class="header">
 
 <div class="container nav-container">
 
-<a class="logo"
-   href="index.html">
+<a href="index.html"
+   class="logo">
+
 🌍 Travel<span>Explorer</span>
+
 </a>
 
-<nav class="navigation">
+<nav class="navbar">
 
-<a href="index.html">Home</a>
+<a href="index.html">
+Home
+</a>
 
 <a href="destinations.html">
 Destinations
@@ -87,8 +108,8 @@ Destinations
 About
 </a>
 
-<a class="active"
-   href="contact.html">
+<a href="contact.html"
+   class="active">
 Contact
 </a>
 
@@ -101,58 +122,84 @@ Contact
 
 <main>
 
-<section class="section">
+
+<div class="container breadcrumb">
+
+<a href="index.html">
+Home
+</a>
+
+<span>›</span>
+
+<span>Contact</span>
+
+</div>
+
+
+<section class="page-hero">
 
 <div class="container">
 
-<div class="section-heading">
-
-<p class="section-label">
+<span class="section-label">
 GET IN TOUCH
-</p>
+</span>
 
 <h1>
 Contact Travel Explorer
 </h1>
 
 <p>
-Have a destination suggestion or feedback about our travel
-website? We would love to hear from you.
+Have a question about a destination or want to share
+feedback? Send us a message.
 </p>
 
 </div>
 
+</section>
 
-<div class="feature-grid">
 
-<article class="feature-card">
+<section class="section">
 
-<div class="feature-icon">
-📍
-</div>
+<div class="container contact-grid">
+
+
+<div>
+
+<img src="images/contact-travel.jpg"
+     alt="Travel planning with map and travel accessories"
+     loading="lazy">
 
 <h2>
-Address
+Travel Explorer
 </h2>
 
 <p>
-Travel Explorer<br>
-Mumbai, Maharashtra<br>
-India
+We are happy to hear from travelers, students and
+travel enthusiasts.
 </p>
 
-</article>
 
+<div class="contact-info">
 
-<article class="feature-card">
+<div>
 
-<div class="feature-icon">
-📞
+<strong>
+📍 Address
+</strong>
+
+<p>
+Travel Explorer, Main Road,
+Mumbai, Maharashtra 400001, India
+</p>
+
 </div>
 
-<h2>
-Phone
-</h2>
+
+<div>
+
+<strong>
+📞 Phone
+</strong>
 
 <p>
 <a href="tel:+919876543210">
@@ -160,79 +207,98 @@ Phone
 </a>
 </p>
 
-</article>
-
-
-<article class="feature-card">
-
-<div class="feature-icon">
-✉️
 </div>
 
-<h2>
-Contact Form
-</h2>
+
+<div>
+
+<strong>
+🕐 Working Hours
+</strong>
 
 <p>
-Use the form below to send your feedback.
+Monday – Saturday<br>
+9:00 AM – 6:00 PM
 </p>
 
-</article>
+</div>
+
+</div>
 
 </div>
 
 
-<div class="guide-section">
+<!-- Contact Form -->
+
+<div class="contact-form">
+
+<h2>
+Send Us a Message
+</h2>
 
 <form action="#"
-      method="post"
-      class="contact-form">
+      method="post">
 
 <label for="name">
 Your Name
 </label>
 
-<input id="name"
+<input type="text"
+       id="name"
        name="name"
-       type="text"
        placeholder="Enter your name"
        required>
 
 
 <label for="email">
-Email Address
+Your Email
 </label>
 
-<input id="email"
+<input type="email"
+       id="email"
        name="email"
-       type="email"
        placeholder="Enter your email"
        required>
 
 
+<label for="subject">
+Subject
+</label>
+
+<input type="text"
+       id="subject"
+       name="subject"
+       placeholder="Enter message subject"
+       required>
+
+
 <label for="message">
-Message
+Your Message
 </label>
 
 <textarea id="message"
           name="message"
-          rows="7"
-          placeholder="Write your message..."
+          rows="6"
+          placeholder="Write your message here..."
           required></textarea>
 
 
-<button class="btn btn-primary"
-        type="submit">
+<button type="submit"
+        class="btn btn-primary">
+
 Send Message
+
 </button>
 
 </form>
 
 </div>
 
+
 </div>
 
 </section>
+
 
 </main>
 
@@ -243,55 +309,84 @@ Send Message
 
 <div>
 
-<a class="logo footer-logo"
-   href="index.html">
-🌍 Travel<span>Explorer</span>
-</a>
+<h3>
+🌍 Travel Explorer
+</h3>
 
 <p>
-Travel inspiration and destination guides for curious travelers.
+Discover destinations and plan memorable adventures.
 </p>
 
 </div>
 
+
 <div>
 
-<h3>Navigation</h3>
+<h3>
+Quick Links
+</h3>
 
 <a href="index.html">Home</a>
-<a href="destinations.html">Destinations</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
+
+<a href="destinations.html">
+Destinations
+</a>
+
+<a href="about.html">
+About
+</a>
+
+<a href="contact.html">
+Contact
+</a>
 
 </div>
 
-<div>
-
-<h3>Contact</h3>
-
-<p>
-Mumbai, Maharashtra, India
-</p>
-
-<p>
-+91 98765 43210
-</p>
-
-</div>
 
 <div>
 
-<h3>Project</h3>
+<h3>
+Social Media
+</h3>
 
-<a href="https://github.com/shinchan111/project"
+<div class="social-links">
+
+<a href="https://www.facebook.com/travelexplorer"
    target="_blank"
    rel="noopener noreferrer">
-GitHub Repository
+Facebook
+</a>
+
+<a href="https://www.instagram.com/travelexplorer"
+   target="_blank"
+   rel="noopener noreferrer">
+Instagram
+</a>
+
+<a href="https://x.com/travelexplorer"
+   target="_blank"
+   rel="noopener noreferrer">
+X
+</a>
+
+<a href="https://www.linkedin.com/company/travelexplorer"
+   target="_blank"
+   rel="noopener noreferrer">
+LinkedIn
+</a>
+
+<a href="https://www.youtube.com/@travelexplorer"
+   target="_blank"
+   rel="noopener noreferrer">
+YouTube
 </a>
 
 </div>
 
 </div>
+
+</div>
+
 
 <div class="footer-bottom">
 
@@ -303,6 +398,6 @@ GitHub Repository
 
 </footer>
 
-</body>
 
+</body>
 </html>
