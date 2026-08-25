@@ -533,3 +533,48 @@ a {
         padding: 70px 0;
     }
 }
+/* =========================================
+   CONTACT FORM
+   ========================================= */
+
+.contact-form {
+    max-width: 750px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 18px;
+    background: var(--light);
+    border: 1px solid var(--border);
+}
+
+.contact-form label {
+    display: block;
+    margin: 18px 0 7px;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font: inherit;
+    background: white;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid var(--primary);
+    border-color: var(--primary);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    border: 0;
+    cursor: pointer;
+    margin-top: 20px;
+}
