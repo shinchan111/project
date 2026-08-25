@@ -1,0 +1,36 @@
+# Travel Explorer
+
+> Travel Explorer is a travel inspiration website that helps visitors
+> discover beautiful destinations, travel ideas and memorable experiences.
+
+## Main Pages
+
+- Home: https://your-domain.vercel.app/
+- Destinations: https://your-domain.vercel.app/destinations.html
+- About: https://your-domain.vercel.app/about.html
+- Contact: https://your-domain.vercel.app/contact.html
+
+## Destinations
+
+Travel Explorer provides information and inspiration about:
+
+- Paris, France
+- Bali, Indonesia
+- Switzerland
+- Dubai, United Arab Emirates
+- Japan
+- Maldives
+
+## Website Topics
+
+- Travel destinations
+- Vacation ideas
+- Travel guides
+- Tourism
+- Travel inspiration
+- Adventure travel
+
+## Organization
+
+Travel Explorer
+Mumbai, Maharashtra, India
