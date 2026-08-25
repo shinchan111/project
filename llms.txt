@@ -1,8 +1,11 @@
 # Travel Explorer
 
-> Travel Explorer is a travel inspiration website that helps visitors
-> discover beautiful destinations, travel ideas and memorable experiences.
+> Travel Explorer is a travel discovery website providing destination
+> information, travel inspiration and travel guides.
 
+## Website
+
+https://shinchan111.github.io/project/
 ## Main Pages
 
 - Home: https://shinchan111.github.io/project/
@@ -12,7 +15,8 @@
 
 ## Destinations
 
-Travel Explorer provides information and inspiration about:
+Travel Explorer provides information and inspiration about destinations
+including:
 
 - Paris, France
 - Bali, Indonesia
@@ -21,16 +25,39 @@ Travel Explorer provides information and inspiration about:
 - Japan
 - Maldives
 
-## Website Topics
+## Topics
+
+The website focuses on:
 
 - Travel destinations
 - Vacation ideas
-- Travel guides
-- Tourism
 - Travel inspiration
+- Destination guides
+- World travel
 - Adventure travel
+- Travel planning
 
-## Organization
+## Contact
 
 Travel Explorer
 Mumbai, Maharashtra, India
+
+Phone:
++91 98765 43210
+
+## Social Profiles
+
+Facebook:
+https://www.facebook.com/travelexplorer
+
+Instagram:
+https://www.instagram.com/travelexplorer
+
+X:
+https://x.com/travelexplorer
+
+LinkedIn:
+https://www.linkedin.com/company/travelexplorer
+
+YouTube:
+https://www.youtube.com/@travelexplorer
