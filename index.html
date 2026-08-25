@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- Basic SEO -->
     <meta charset="UTF-8">
 
     <meta name="viewport"
@@ -9,10 +11,10 @@
     <title>Travel Explorer | Best Travel Destinations & Guides</title>
 
     <meta name="description"
-          content="Discover beautiful travel destinations, vacation ideas, travel guides and unforgettable adventures with Travel Explorer.">
+          content="Discover the world's best travel destinations, vacation ideas, travel guides and unforgettable adventures with Travel Explorer.">
 
     <meta name="keywords"
-          content="travel destinations, travel guide, vacation ideas, world travel, Paris, Bali, Switzerland, Dubai, Japan, Maldives">
+          content="travel destinations, travel guides, vacation ideas, world travel, adventure travel, Travel Explorer">
 
     <meta name="author"
           content="Travel Explorer">
@@ -20,12 +22,14 @@
     <meta name="robots"
           content="index, follow">
 
+    <!-- Canonical -->
     <link rel="canonical"
-          href="https://shinchan111.github.io/project/">
+          href="https://project-rosy-delta-79.vercel.app/">
 
+    <!-- Favicon -->
     <link rel="icon"
-          href="favicon.svg"
-          type="image/svg+xml">
+          type="image/png"
+          href="images/favicon.png">
 
     <!-- Open Graph -->
     <meta property="og:type"
@@ -35,93 +39,134 @@
           content="Travel Explorer | Best Travel Destinations & Guides">
 
     <meta property="og:description"
-          content="Explore beautiful destinations, travel inspiration and useful travel guides from around the world.">
+          content="Explore beautiful destinations, travel inspiration and helpful vacation guides from Travel Explorer.">
 
     <meta property="og:url"
-          content="https://shinchan111.github.io/project/">
+          content="https://project-rosy-delta-79.vercel.app/">
+
+    <meta property="og:image"
+          content="https://project-rosy-delta-79.vercel.app/images/og-image.jpg">
 
     <meta property="og:site_name"
           content="Travel Explorer">
 
-    <meta property="og:image"
-          content="https://shinchan111.github.io/project/og-image.jpg">
-
-    <meta property="og:image:alt"
-          content="Beautiful world travel destination">
-
-    <!-- X / Twitter -->
+    <!-- X / Twitter Card -->
     <meta name="twitter:card"
           content="summary_large_image">
 
     <meta name="twitter:title"
-          content="Travel Explorer | Best Travel Destinations & Guides">
+          content="Travel Explorer | Best Travel Destinations">
 
     <meta name="twitter:description"
-          content="Discover beautiful destinations and travel inspiration around the world.">
+          content="Discover amazing destinations, travel guides and unforgettable adventures.">
 
     <meta name="twitter:image"
-          content="https://shinchan111.github.io/project/og-image.jpg">
+          content="https://project-rosy-delta-79.vercel.app/images/og-image.jpg">
 
     <!-- Preconnect -->
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
+    <!-- Google Font -->
     <link rel="preconnect"
           href="https://fonts.gstatic.com"
           crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet">
 
-    <!-- Organization Schema -->
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="style.css">
+
+    <!-- Google Analytics
+         Replace G-XXXXXXXXXX with your real GA4 Measurement ID -->
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX">
+    </script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+
+    <!-- JSON-LD Structured Data -->
+
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Travel Explorer",
-        "url": "https://shinchan111.github.io/project/",
-        "logo": "https://shinchan111.github.io/project/favicon.svg",
-        "description": "Travel Explorer provides travel inspiration, destination information and travel guides.",
-        "sameAs": [
-            "https://github.com/shinchan111/project"
-        ]
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Travel Explorer",
+      "url": "https://project-rosy-delta-79.vercel.app/",
+      "logo": "https://project-rosy-delta-79.vercel.app/images/favicon.png",
+      "image": "https://project-rosy-delta-79.vercel.app/images/og-image.jpg",
+      "description": "Travel Explorer provides travel inspiration, destination guides and vacation ideas for travelers around the world.",
+      "telephone": "+91-98765-43210",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Travel Explorer, Main Road",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400001",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.facebook.com/travelexplorer",
+        "https://www.instagram.com/travelexplorer",
+        "https://x.com/travelexplorer",
+        "https://www.linkedin.com/company/travelexplorer",
+        "https://www.youtube.com/@travelexplorer"
+      ]
     }
     </script>
 
-    <!-- Website Schema -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Travel Explorer",
-        "url": "https://shinchan111.github.io/project/",
-        "description": "Travel destinations, vacation ideas and travel guides.",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://shinchan111.github.io/project/destinations.html?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Travel Explorer",
+      "url": "https://project-rosy-delta-79.vercel.app/",
+      "description": "Travel destinations, guides and vacation inspiration.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://project-rosy-delta-79.vercel.app/destinations.html?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
     </script>
+
 </head>
+
 
 <body>
 
-<header class="site-header">
+<!-- ================= HEADER ================= -->
+
+<header class="header">
 
     <div class="container nav-container">
 
-        <a class="logo"
-           href="index.html"
+        <a href="index.html"
+           class="logo"
            aria-label="Travel Explorer Home">
+
             🌍 Travel<span>Explorer</span>
+
         </a>
 
-        <nav class="navigation"
+
+        <nav class="navbar"
              aria-label="Main navigation">
 
-            <a class="active"
-               href="index.html">
+            <a href="index.html"
+               class="active">
                 Home
             </a>
 
@@ -144,518 +189,443 @@
 </header>
 
 
+<!-- ================= HERO ================= -->
+
 <main>
 
-    <!-- HERO -->
+<section class="hero">
 
-    <section class="hero">
-
-        <div class="hero-overlay"></div>
+    <div class="hero-overlay">
 
         <div class="container hero-content">
 
-            <p class="eyebrow">
+            <span class="hero-label">
                 EXPLORE • DISCOVER • EXPERIENCE
-            </p>
+            </span>
 
             <h1>
                 Discover Beautiful Destinations Around the World
             </h1>
 
-            <p class="hero-text">
+            <p>
                 Find travel inspiration, explore unforgettable destinations
-                and discover useful travel guides designed to help you
-                create amazing memories around the world.
+                and discover useful travel guides designed to help you create
+                amazing memories around the world.
             </p>
 
             <div class="hero-buttons">
 
-                <a class="btn btn-primary"
-                   href="destinations.html">
+                <a href="destinations.html"
+                   class="btn btn-primary">
                     Explore Destinations
                 </a>
 
-                <a class="btn btn-outline"
-                   href="about.html">
-                    Learn About Us
+                <a href="about.html"
+                   class="btn btn-outline">
+                    Learn More
                 </a>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
 
+</section>
 
-    <!-- INTRODUCTION -->
 
-    <section class="section">
+<!-- ================= INTRODUCTION ================= -->
 
-        <div class="container">
+<section class="section">
 
-            <div class="section-heading">
+    <div class="container">
 
-                <p class="section-label">
-                    TRAVEL INSPIRATION
-                </p>
+        <div class="section-heading">
 
-                <h2>
-                    Explore the World With Travel Explorer
-                </h2>
-
-                <p>
-                    Travel Explorer is a destination discovery website
-                    created for travelers who want to explore beautiful
-                    places, discover new cultures and plan memorable
-                    adventures.
-                </p>
-
-            </div>
-
-
-            <div class="feature-grid">
-
-                <article class="feature-card">
-
-                    <div class="feature-icon">
-                        🌎
-                    </div>
-
-                    <h3>
-                        Explore Destinations
-                    </h3>
-
-                    <p>
-                        Discover popular travel destinations across Europe,
-                        Asia and the Middle East. Learn about famous
-                        attractions, beautiful landscapes and exciting
-                        experiences.
-                    </p>
-
-                </article>
-
-
-                <article class="feature-card">
-
-                    <div class="feature-icon">
-                        🧭
-                    </div>
-
-                    <h3>
-                        Helpful Travel Guides
-                    </h3>
-
-                    <p>
-                        Our travel guides provide useful information and
-                        inspiration to help travelers make better decisions
-                        when planning their next vacation.
-                    </p>
-
-                </article>
-
-
-                <article class="feature-card">
-
-                    <div class="feature-icon">
-                        ✈️
-                    </div>
-
-                    <h3>
-                        Create Amazing Memories
-                    </h3>
-
-                    <p>
-                        Whether you enjoy beaches, mountains, cities or
-                        cultural experiences, every journey provides an
-                        opportunity to create unforgettable memories.
-                    </p>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- DESTINATIONS -->
-
-    <section class="section destinations-section">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <p class="section-label">
-                    TOP DESTINATIONS
-                </p>
-
-                <h2>
-                    Popular Places to Explore
-                </h2>
-
-                <p>
-                    Discover some of the world's most beautiful and exciting
-                    travel destinations and find inspiration for your next
-                    adventure.
-                </p>
-
-            </div>
-
-
-            <div class="destination-grid">
-
-
-                <!-- PARIS -->
-
-                <article class="destination-card">
-
-                    <img src="images/destination-paris.jpg"
-                         alt="Eiffel Tower in Paris France"
-                         loading="lazy"
-                         width="800"
-                         height="550">
-
-                    <div class="destination-content">
-
-                        <span class="country">
-                            🇫🇷 France
-                        </span>
-
-                        <h3>
-                            Paris
-                        </h3>
-
-                        <p>
-                            Explore romantic streets, historic landmarks,
-                            art galleries and the famous Eiffel Tower in
-                            Paris.
-                        </p>
-
-                        <a href="paris.html"
-                           class="text-link">
-                            Explore Paris →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- BALI -->
-
-                <article class="destination-card">
-
-                    <img src="images/destination-bali.jpg"
-                         alt="Tropical beach and landscape in Bali Indonesia"
-                         loading="lazy"
-                         width="800"
-                         height="550">
-
-                    <div class="destination-content">
-
-                        <span class="country">
-                            🇮🇩 Indonesia
-                        </span>
-
-                        <h3>
-                            Bali
-                        </h3>
-
-                        <p>
-                            Discover tropical beaches, ancient temples,
-                            rice terraces and peaceful landscapes in Bali.
-                        </p>
-
-                        <a href="bali.html"
-                           class="text-link">
-                            Explore Bali →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- SWITZERLAND -->
-
-                <article class="destination-card">
-
-                    <img src="images/destination-switzerland.jpg"
-                         alt="Swiss Alps mountains and scenic landscape in Switzerland"
-                         loading="lazy"
-                         width="800"
-                         height="550">
-
-                    <div class="destination-content">
-
-                        <span class="country">
-                            🇨🇭 Switzerland
-                        </span>
-
-                        <h3>
-                            Switzerland
-                        </h3>
-
-                        <p>
-                            Experience breathtaking Alpine mountains, lakes,
-                            villages and scenic landscapes.
-                        </p>
-
-                        <a href="switzerland.html"
-                           class="text-link">
-                            Explore Switzerland →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- DUBAI -->
-
-                <article class="destination-card">
-
-                    <img src="images/destination-dubai.jpg"
-                         alt="Dubai skyline and modern architecture in United Arab Emirates"
-                         loading="lazy"
-                         width="800"
-                         height="550">
-
-                    <div class="destination-content">
-
-                        <span class="country">
-                            🇦🇪 UAE
-                        </span>
-
-                        <h3>
-                            Dubai
-                        </h3>
-
-                        <p>
-                            Discover modern architecture, shopping,
-                            entertainment and exciting desert adventures.
-                        </p>
-
-                        <a href="dubai.html"
-                           class="text-link">
-                            Explore Dubai →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- JAPAN -->
-
-                <article class="destination-card">
-
-                    <img src="images/destination-japan.jpg"
-                         alt="Mount Fuji and traditional Japanese landscape"
-                         loading="lazy"
-                         width="800"
-                         height="550">
-
-                    <div class="destination-content">
-
-                        <span class="country">
-                            🇯🇵 Japan
-                        </span>
-
-                        <h3>
-                            Japan
-                        </h3>
-
-                        <p>
-                            Explore ancient traditions, modern cities,
-                            beautiful temples and the iconic Mount Fuji.
-                        </p>
-
-                        <a href="japan.html"
-                           class="text-link">
-                            Explore Japan →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- MALDIVES -->
-
-                <article class="destination-card">
-
-                    <img src="images/destination-maldives.jpg"
-                         alt="Clear blue tropical water and beaches in Maldives"
-                         loading="lazy"
-                         width="800"
-                         height="550">
-
-                    <div class="destination-content">
-
-                        <span class="country">
-                            🇲🇻 Maldives
-                        </span>
-
-                        <h3>
-                            Maldives
-                        </h3>
-
-                        <p>
-                            Relax on tropical islands surrounded by crystal
-                            clear water, coral reefs and beautiful beaches.
-                        </p>
-
-                        <a href="maldives.html"
-                           class="text-link">
-                            Explore Maldives →
-                        </a>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- TRAVEL GUIDE -->
-
-    <section class="guide-section">
-
-        <div class="container guide-grid">
-
-            <div class="guide-image">
-
-                <img src="images/travel-blog.jpg"
-                     alt="Travel planning with camera and travel journal"
-                     loading="lazy"
-                     width="900"
-                     height="650">
-
-            </div>
-
-            <div class="guide-content">
-
-                <p class="section-label">
-                    TRAVEL GUIDE
-                </p>
-
-                <h2>
-                    Plan Your Next Adventure
-                </h2>
-
-                <p>
-                    Planning a trip can be exciting. Choosing the right
-                    destination, understanding local culture, preparing
-                    an itinerary and researching important attractions
-                    can make your journey more enjoyable.
-                </p>
-
-                <p>
-                    Travel Explorer brings together destination information,
-                    travel inspiration and practical ideas so you can
-                    discover places that match your interests.
-                </p>
-
-                <a class="btn btn-primary"
-                   href="destinations.html">
-                    View Travel Destinations
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- WHY TRAVEL -->
-
-    <section class="section">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <p class="section-label">
-                    TRAVEL SMART
-                </p>
-
-                <h2>
-                    Make Every Journey More Meaningful
-                </h2>
-
-            </div>
-
-            <div class="tips-grid">
-
-                <article>
-                    <span>🗺️</span>
-                    <h3>Research Your Destination</h3>
-                    <p>
-                        Learn about local attractions, transportation,
-                        culture and important travel information before
-                        starting your journey.
-                    </p>
-                </article>
-
-                <article>
-                    <span>📷</span>
-                    <h3>Capture Your Memories</h3>
-                    <p>
-                        Photography helps preserve the memorable moments
-                        and unique experiences you discover while traveling.
-                    </p>
-                </article>
-
-                <article>
-                    <span>🌱</span>
-                    <h3>Travel Responsibly</h3>
-                    <p>
-                        Respect local communities, protect natural
-                        environments and choose responsible travel habits.
-                    </p>
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- CTA -->
-
-    <section class="cta">
-
-        <div class="container">
+            <span class="section-label">
+                TRAVEL INSPIRATION
+            </span>
 
             <h2>
-                Your Next Adventure Starts Here
+                Explore the World With Travel Explorer
             </h2>
 
             <p>
-                Explore new places, experience different cultures and
-                create memories that last a lifetime.
+                Travel Explorer is a destination discovery website created
+                for travelers who want to explore beautiful places, discover
+                new cultures and plan memorable adventures.
             </p>
 
-            <a href="contact.html"
-               class="btn btn-light">
-                Contact Travel Explorer
+        </div>
+
+
+        <div class="content-grid">
+
+            <article class="info-card">
+
+                <div class="icon">
+                    🌎
+                </div>
+
+                <h3>
+                    Explore Destinations
+                </h3>
+
+                <p>
+                    Discover popular travel destinations across Europe,
+                    Asia and the Middle East. Learn about famous attractions,
+                    beautiful landscapes and exciting experiences.
+                </p>
+
+            </article>
+
+
+            <article class="info-card">
+
+                <div class="icon">
+                    🧭
+                </div>
+
+                <h3>
+                    Helpful Travel Guides
+                </h3>
+
+                <p>
+                    Our travel guides provide useful information and
+                    inspiration to help travelers make better decisions
+                    when planning their next vacation.
+                </p>
+
+            </article>
+
+
+            <article class="info-card">
+
+                <div class="icon">
+                    ✈️
+                </div>
+
+                <h3>
+                    Create Memories
+                </h3>
+
+                <p>
+                    Whether you enjoy beaches, mountains, cities or
+                    cultural experiences, every journey provides an
+                    opportunity to create unforgettable memories.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DESTINATIONS ================= -->
+
+<section class="section section-light">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                TOP DESTINATIONS
+            </span>
+
+            <h2>
+                Popular Places to Explore
+            </h2>
+
+            <p>
+                Discover some of the world's most beautiful and exciting
+                travel destinations.
+            </p>
+
+        </div>
+
+
+        <div class="destination-grid">
+
+
+            <!-- Paris -->
+
+            <article class="destination-card">
+
+                <img src="images/destination-paris.jpg"
+                     alt="Eiffel Tower in Paris France"
+                     loading="lazy">
+
+                <div class="destination-content">
+
+                    <span>
+                        🇫🇷 France
+                    </span>
+
+                    <h3>
+                        Paris
+                    </h3>
+
+                    <p>
+                        Explore the romantic streets, historic landmarks,
+                        art galleries and famous Eiffel Tower in Paris.
+                    </p>
+
+                    <a href="destinations.html#paris">
+                        Explore Paris →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Bali -->
+
+            <article class="destination-card">
+
+                <img src="images/destination-bali.jpg"
+                     alt="Beautiful tropical beach in Bali Indonesia"
+                     loading="lazy">
+
+                <div class="destination-content">
+
+                    <span>
+                        🇮🇩 Indonesia
+                    </span>
+
+                    <h3>
+                        Bali
+                    </h3>
+
+                    <p>
+                        Discover tropical beaches, temples, rice terraces
+                        and peaceful landscapes in beautiful Bali.
+                    </p>
+
+                    <a href="destinations.html#bali">
+                        Explore Bali →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Switzerland -->
+
+            <article class="destination-card">
+
+                <img src="images/destination-switzerland.jpg"
+                     alt="Swiss Alps mountains in Switzerland"
+                     loading="lazy">
+
+                <div class="destination-content">
+
+                    <span>
+                        🇨🇭 Switzerland
+                    </span>
+
+                    <h3>
+                        Switzerland
+                    </h3>
+
+                    <p>
+                        Experience breathtaking Alpine mountains, lakes,
+                        villages and scenic landscapes.
+                    </p>
+
+                    <a href="destinations.html#switzerland">
+                        Explore Switzerland →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Dubai -->
+
+            <article class="destination-card">
+
+                <img src="images/destination-dubai.jpg"
+                     alt="Dubai skyline and modern architecture"
+                     loading="lazy">
+
+                <div class="destination-content">
+
+                    <span>
+                        🇦🇪 UAE
+                    </span>
+
+                    <h3>
+                        Dubai
+                    </h3>
+
+                    <p>
+                        Discover modern architecture, shopping,
+                        entertainment and unforgettable desert adventures.
+                    </p>
+
+                    <a href="destinations.html#dubai">
+                        Explore Dubai →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Japan -->
+
+            <article class="destination-card">
+
+                <img src="images/destination-japan.jpg"
+                     alt="Mount Fuji and traditional Japanese landscape"
+                     loading="lazy">
+
+                <div class="destination-content">
+
+                    <span>
+                        🇯🇵 Japan
+                    </span>
+
+                    <h3>
+                        Japan
+                    </h3>
+
+                    <p>
+                        Explore ancient traditions, modern cities,
+                        beautiful temples and the iconic Mount Fuji.
+                    </p>
+
+                    <a href="destinations.html#japan">
+                        Explore Japan →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Maldives -->
+
+            <article class="destination-card">
+
+                <img src="images/destination-maldives.jpg"
+                     alt="Clear blue water and tropical beach in Maldives"
+                     loading="lazy">
+
+                <div class="destination-content">
+
+                    <span>
+                        🇲🇻 Maldives
+                    </span>
+
+                    <h3>
+                        Maldives
+                    </h3>
+
+                    <p>
+                        Relax on beautiful tropical islands surrounded by
+                        crystal-clear water and stunning beaches.
+                    </p>
+
+                    <a href="destinations.html#maldives">
+                        Explore Maldives →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TRAVEL GUIDE ================= -->
+
+<section class="section">
+
+    <div class="container guide-grid">
+
+        <div class="guide-image">
+
+            <img src="images/travel-blog.jpg"
+                 alt="Travel planning with camera and travel journal"
+                 loading="lazy">
+
+        </div>
+
+
+        <div class="guide-content">
+
+            <span class="section-label">
+                TRAVEL GUIDE
+            </span>
+
+            <h2>
+                Plan Your Next Adventure
+            </h2>
+
+            <p>
+                Planning a trip can be exciting. Choosing a destination,
+                understanding the local culture and preparing a simple
+                itinerary can make your journey more enjoyable.
+            </p>
+
+            <p>
+                Travel Explorer brings together destination information
+                and travel inspiration so that you can discover places
+                that match your interests.
+            </p>
+
+            <a href="destinations.html"
+               class="btn btn-primary">
+                View Travel Destinations
             </a>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>
+            Your Next Adventure Starts Here
+        </h2>
+
+        <p>
+            Explore new places, experience different cultures and
+            create memories that last a lifetime.
+        </p>
+
+        <a href="contact.html"
+           class="btn btn-light">
+            Contact Travel Explorer
+        </a>
+
+    </div>
+
+</section>
 
 </main>
 
+
+<!-- ================= FOOTER ================= -->
 
 <footer class="footer">
 
@@ -663,14 +633,13 @@
 
         <div>
 
-            <a class="logo footer-logo"
-               href="index.html">
-                🌍 Travel<span>Explorer</span>
-            </a>
+            <h3>
+                🌍 Travel Explorer
+            </h3>
 
             <p>
-                Discover beautiful destinations, travel inspiration and
-                helpful guides for your next adventure.
+                Discover beautiful destinations, travel inspiration
+                and helpful guides for your next adventure.
             </p>
 
         </div>
@@ -682,36 +651,20 @@
                 Quick Links
             </h3>
 
-            <a href="index.html">Home</a>
-            <a href="destinations.html">Destinations</a>
-            <a href="about.html">About Travel Explorer</a>
-            <a href="contact.html">Contact Travel Explorer</a>
-
-        </div>
-
-
-        <div>
-
-            <h3>
-                Travel Resources
-            </h3>
-
-            <a href="https://www.unesco.org/en"
-               target="_blank"
-               rel="noopener noreferrer">
-                UNESCO
+            <a href="index.html">
+                Home
             </a>
 
-            <a href="https://www.who.int/"
-               target="_blank"
-               rel="noopener noreferrer">
-                World Health Organization
+            <a href="destinations.html">
+                Destinations
             </a>
 
-            <a href="https://www.iata.org/"
-               target="_blank"
-               rel="noopener noreferrer">
-                IATA
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="contact.html">
+                Contact
             </a>
 
         </div>
@@ -720,20 +673,42 @@
         <div>
 
             <h3>
-                Project Links
+                Follow Us
             </h3>
 
-            <a href="https://github.com/shinchan111/project"
-               target="_blank"
-               rel="noopener noreferrer">
-                Travel Explorer on GitHub
-            </a>
+            <div class="social-links">
 
-            <a href="https://shinchan111.github.io/project/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Live Website
-            </a>
+                <a href="https://www.facebook.com/travelexplorer"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Facebook
+                </a>
+
+                <a href="https://www.instagram.com/travelexplorer"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Instagram
+                </a>
+
+                <a href="https://x.com/travelexplorer"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    X
+                </a>
+
+                <a href="https://www.linkedin.com/company/travelexplorer"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+                <a href="https://www.youtube.com/@travelexplorer"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    YouTube
+                </a>
+
+            </div>
 
         </div>
 
@@ -749,6 +724,7 @@
     </div>
 
 </footer>
+
 
 </body>
 </html>
