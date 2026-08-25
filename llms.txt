@@ -5,10 +5,10 @@
 
 ## Main Pages
 
-- Home: https://your-domain.vercel.app/
-- Destinations: https://your-domain.vercel.app/destinations.html
-- About: https://your-domain.vercel.app/about.html
-- Contact: https://your-domain.vercel.app/contact.html
+- Home: https://shinchan111.github.io/project/
+- Destinations: https://shinchan111.github.io/project/destinations.html
+- About: https://shinchan111.github.io/project/about.html
+- Contact: https://shinchan111.github.io/project/contact.html
 
 ## Destinations
 
